@@ -1,0 +1,45 @@
+header{
+  width: 100%;
+  min-height: 100vh;
+  background: #154E81;
+}
+
+section{
+  width: 100%;
+  background: #2DAEBF;
+  min-height: 100vh;
+}
+
+article{
+  background: #80C41C;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* */
+.contador {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.simply-section {
+	width: 180px;
+	height: 180px;
+	margin: 0 20px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
