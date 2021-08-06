@@ -1,6 +1,6 @@
-header{
+ 	header{
   width: 100%;
-  min-height: 100vh;
+  min-height: 105vh	;
   background: #154E81;
 }
 
@@ -57,4 +57,4 @@ article{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .simply-section {background: #154E81;}
-} 
+}
