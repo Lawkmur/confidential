@@ -28,8 +28,7 @@ article{
 	height: 180px;
 	margin: 0 20px;
 	border-radius: 5px;
-	display: flex;
-	align-items: center;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -43,3 +42,19 @@ article{
 	font-weight: 300;
 	font-size: 30px;
 }
+
+/* breakpoint contador responsive */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .simply-section {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .simply-section {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .simply-section {background: #154E81;}
+} 
